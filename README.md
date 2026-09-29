@@ -1,4 +1,4 @@
-# cdudit.github.io
+# frenchcards.github.io
 
 GitHub Pages site for the French Cards iPhone app.
 
