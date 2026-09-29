@@ -113,7 +113,7 @@ une nouvelle date.
 
 ### Contact
 
-Clément Dudit — [ADRESSE E-MAIL DE CONTACT]
+Clément Dudit — [frenchcards.app@gmail.com](mailto:frenchcards.app@gmail.com)
 
 ---
 
@@ -210,4 +210,4 @@ date.
 
 ### Contact
 
-Clément Dudit — [CONTACT EMAIL ADDRESS]
+Clément Dudit — [frenchcards.app@gmail.com](mailto:frenchcards.app@gmail.com)
