@@ -28,9 +28,9 @@ pourquoi, et comment garder la main dessus.
 - Les publicités ne s'affichent que lorsque vous choisissez d'en regarder une
   pour un pack région. Elles sont fournies par **Google AdMob**, avec votre
   consentement.
-- Des rapports de plantage, sans lien avec votre identité, nous aident à
-  corriger les bugs ; des statistiques d'utilisation, avec votre accord en
-  Europe et au Royaume-Uni (**Firebase**, Google).
+- Des rapports de plantage (**Firebase Crashlytics**, Google) et des
+  statistiques d'utilisation anonymes (**TelemetryDeck**) nous aident à
+  corriger les bugs et à améliorer le jeu, sans lien avec votre identité.
 
 ### Données enregistrées par le jeu
 
@@ -43,8 +43,8 @@ pourquoi, et comment garder la main dessus.
 - **Vos réglages** (notifications, etc.) restent sur l'appareil.
 
 Le jeu n'envoie aucune donnée à un serveur qui nous appartienne. Il utilise
-Firebase (Google) pour les rapports de plantage et des statistiques
-d'utilisation, avec votre accord en Europe et au Royaume-Uni (voir ci-dessous).
+Firebase Crashlytics (Google) pour les rapports de plantage et TelemetryDeck
+pour des statistiques d'utilisation anonymes (voir ci-dessous).
 
 ### Localisation
 
@@ -60,27 +60,28 @@ Les rappels « pack prêt » sont des notifications locales, programmées par
 l'iPhone lui-même. Aucun service de notification externe n'est utilisé. Vous
 pouvez les désactiver dans les Réglages du jeu ou d'iOS.
 
-### Rapports de plantage et statistiques (Firebase)
+### Rapports de plantage (Firebase Crashlytics)
 
-- **Rapports de plantage (Firebase Crashlytics)**, pour tous les joueurs :
-  quand le jeu plante, il envoie l'endroit du code en cause, le modèle
-  d'iPhone, la version d'iOS et un identifiant aléatoire propre à cette
-  installation. Sans lien avec votre identité, rien sur votre collection.
-- **Statistiques d'utilisation (Google Analytics pour Firebase)** : en Europe
-  et au Royaume-Uni, seulement si vous les acceptez dans le formulaire de
-  consentement de Google ; ailleurs, elles sont activées par défaut. Des
-  événements comme « pack ouvert », « carte améliorée », « écran affiché » ou
-  « publicité vue », avec des valeurs fixes (type de pack, rareté, écran), plus
-  le modèle d'iPhone, la version d'iOS, une localisation approximative (pays,
-  région, ville) déduite de l'adresse IP et un identifiant aléatoire propre à
-  cette installation. Jamais la ville de votre carte « MA VILLE », le nom des
-  cartes, l'identifiant publicitaire ni aucun identifiant de l'appareil.
-- Ces données ne servent qu'à améliorer le jeu : ni publicité, ni suivi,
-  ni lien avec votre identité. En Europe et au Royaume-Uni, vous pouvez
-  changer d'avis dans **Réglages › Choix de confidentialité**.
-
+Quand le jeu plante, il envoie l'endroit du code en cause, le modèle d'iPhone,
+la version d'iOS et un identifiant aléatoire propre à cette installation, pour
+tous les joueurs. Sans lien avec votre identité, rien sur votre collection.
 Google traite ces données selon ses propres règles :
 [Confidentialité et sécurité dans Firebase](https://firebase.google.com/support/privacy).
+
+### Statistiques d'utilisation (TelemetryDeck)
+
+Pour savoir comment le jeu est utilisé, il envoie à TelemetryDeck (Allemagne)
+des événements comme « pack ouvert », « carte améliorée », « écran affiché » ou
+« publicité vue », avec des valeurs fixes (type de pack, rareté, écran), plus
+la version du jeu, le modèle d'iPhone, la version d'iOS, la langue, la région,
+le fuseau horaire et quelques réglages d'affichage (taille du texte, mode
+sombre). Ils sont rattachés à un identifiant d'installation haché sur
+l'iPhone, puis de nouveau par TelemetryDeck : personne, ni nous ni eux, ne
+peut remonter jusqu'à vous. Jamais la ville de votre carte « MA VILLE », le
+nom des cartes ni l'identifiant publicitaire. Ces statistiques anonymes ne
+demandent pas de consentement et ne servent qu'à améliorer le jeu : ni
+publicité, ni suivi. Voir la
+[politique de confidentialité de TelemetryDeck](https://telemetrydeck.com/privacy/).
 
 ### Publicités (Google AdMob)
 
@@ -91,14 +92,11 @@ identifiant publicitaire de l'appareil (IDFA, seulement si vous l'autorisez),
 adresse IP et localisation approximative qui en découle, informations sur
 l'appareil, interactions avec les publicités et données de diagnostic.
 
-- **Consentement (Europe et Royaume-Uni)** : à l'accueil, avant votre premier
-  pack après la présentation du jeu (et, s'il a été manqué, avant la première
-  publicité), le formulaire de consentement de Google vous permet d'accepter ou de refuser les
+- **Consentement (Europe et Royaume-Uni)** : avant la première publicité, le
+  formulaire de consentement de Google vous permet d'accepter ou de refuser les
   publicités personnalisées. Si vous refusez, vous recevez des publicités non
   personnalisées et obtenez quand même votre pack. Vous pouvez changer d'avis à
-  tout moment dans le jeu : **Réglages › Choix de confidentialité**. Ce même
-  formulaire couvre aussi les statistiques d'utilisation (voir la section
-  Firebase ci-dessus).
+  tout moment dans le jeu : **Réglages › Confidentialité des publicités**.
 - **Suivi (App Tracking Transparency)** : iOS vous demande ensuite si le jeu
   peut accéder à l'identifiant publicitaire. Refuser ne change rien au jeu.
   Vous pouvez modifier ce choix dans Réglages iOS › Confidentialité et
@@ -131,12 +129,11 @@ Conformément au RGPD, vous pouvez accéder à vos données, les rectifier ou le
 supprimer. Comme votre collection est dans votre iCloud, vous la gérez
 directement : Réglages iOS › [votre nom] › iCloud › Gérer le stockage ›
 French Cards pour la supprimer. Pour les données publicitaires, utilisez
-Réglages › Choix de confidentialité dans le jeu, ou contactez Google ; en
-Europe et au Royaume-Uni, vous pouvez y retirer à tout moment votre accord aux
-statistiques d'utilisation. Ailleurs, écrivez-nous à l'adresse ci-dessous pour
-toute question sur ces données. Les rapports de plantage et les statistiques
-sont traités par Google (Firebase). Vous pouvez aussi déposer une réclamation auprès de la
-[CNIL](https://www.cnil.fr).
+Réglages › Confidentialité des publicités dans le jeu, ou contactez Google.
+Les rapports de plantage sont traités par Google (Firebase) ; les statistiques
+de TelemetryDeck sont anonymes et ne peuvent pas être rattachées à vous. Pour
+toute question, écrivez-nous à l'adresse ci-dessous. Vous pouvez aussi déposer
+une réclamation auprès de la [CNIL](https://www.cnil.fr).
 
 ### Modifications
 
@@ -163,8 +160,9 @@ how you stay in control of it.
   stored or sent anywhere.
 - Ads only appear when you choose to watch one for a region pack. They're
   served by **Google AdMob**, with your consent.
-- Crash reports, not linked to your identity, help us fix bugs; usage
-  statistics, with your consent in Europe and the UK (**Firebase**, Google).
+- Crash reports (**Firebase Crashlytics**, Google) and anonymous usage
+  statistics (**TelemetryDeck**) help us fix bugs and improve the game, not
+  linked to your identity.
 
 ### Data the game stores
 
@@ -175,8 +173,8 @@ how you stay in control of it.
   access it; we can't read or change it.
 - **Your settings** (notifications, etc.) stay on the device.
 
-The game sends no data to any server of ours. It uses Firebase (Google) for
-crash reports and usage statistics, with your consent in Europe and the UK
+The game sends no data to any server of ours. It uses Firebase Crashlytics
+(Google) for crash reports and TelemetryDeck for anonymous usage statistics
 (see below).
 
 ### Location
@@ -193,26 +191,26 @@ without ever sharing your location.
 No external notification service is used. You can turn them off in the game's
 Settings or in iOS Settings.
 
-### Crash reports and statistics (Firebase)
+### Crash reports (Firebase Crashlytics)
 
-- **Crash reports (Firebase Crashlytics)**, for every player: when the game
-  crashes, it sends where in the code it happened, the iPhone model, the iOS
-  version and a random ID for this installation. Not linked to your identity,
-  nothing about your collection.
-- **Usage statistics (Google Analytics for Firebase)**: in Europe and the UK,
-  only if you accept them in Google's consent form; elsewhere they are on by
-  default. Events such as "pack opened", "card upgraded", "screen shown" or
-  "ad watched", with fixed values (pack type, rarity, screen), plus the iPhone
-  model, iOS version, an approximate location (country, region, city) derived
-  from the IP address and a random ID for this installation. Never the town on
-  your "MA VILLE" card, card names, the advertising identifier or any device
-  identifier.
-- This data is only used to improve the game: no advertising, no tracking,
-  no link to your identity. In Europe and the UK, you can change your mind in
-  **Settings › Privacy choices**.
-
-Google handles this data under its own policy:
+When the game crashes, it sends where in the code it happened, the iPhone
+model, the iOS version and a random ID for this installation, for every
+player. Not linked to your identity, nothing about your collection. Google
+handles this data under its own policy:
 [Privacy and Security in Firebase](https://firebase.google.com/support/privacy).
+
+### Usage statistics (TelemetryDeck)
+
+To learn how the game is used, it sends TelemetryDeck (Germany) events such as
+"pack opened", "card upgraded", "screen shown" or "ad watched", with fixed
+values (pack type, rarity, screen), plus the game version, iPhone model, iOS
+version, language, region, time zone and a few display settings (text size,
+dark mode). They're tied to an installation ID hashed on the iPhone, then
+again by TelemetryDeck: nobody, neither we nor they, can trace them back to
+you. Never the town on your "MA VILLE" card, card names or the advertising
+identifier. These anonymous statistics need no consent and are only used to
+improve the game: no advertising, no tracking. See
+[TelemetryDeck's privacy policy](https://telemetrydeck.com/privacy/).
 
 ### Ads (Google AdMob)
 
@@ -222,12 +220,10 @@ collect: your device's advertising identifier (IDFA, only if you allow it), IP
 address and the approximate location derived from it, device information, ad
 interactions and diagnostic data.
 
-- **Consent (Europe and UK)**: on the home screen, before your first pack
-  after the introduction (and, if it was missed, before the first ad),
-  Google's consent form lets you accept or refuse personalized ads. If you refuse, you get
+- **Consent (Europe and UK)**: before the first ad, Google's consent form lets
+  you accept or refuse personalized ads. If you refuse, you get
   non-personalized ads and still get your pack. You can change your choice at
-  any time in the game: **Settings › Privacy choices**. The same form also
-  covers the usage statistics (see the Firebase section above).
+  any time in the game: **Settings › Ad privacy choices**.
 - **Tracking (App Tracking Transparency)**: iOS then asks whether the game may
   access the advertising identifier. Declining doesn't change anything in the
   game. You can change this in iOS Settings › Privacy & Security › Tracking.
@@ -257,11 +253,10 @@ collect personal data from children.
 Under the GDPR you can access, correct or delete your data. Since your
 collection lives in your iCloud, you manage it directly: iOS Settings ›
 [your name] › iCloud › Manage Storage › French Cards to delete it. For ad data,
-use Settings › Privacy choices in the game, or contact Google; in Europe and
-the UK you can withdraw your consent to usage statistics there at any time.
-Elsewhere, write to the address below with any question about this data. Crash
-reports and statistics are handled by Google (Firebase). You can also
-lodge a complaint with your data protection authority (in France, the
+use Settings › Ad privacy choices in the game, or contact Google. Crash reports
+are handled by Google (Firebase); TelemetryDeck's statistics are anonymous and
+can't be tied to you. For any question, write to the address below. You can
+also lodge a complaint with your data protection authority (in France, the
 [CNIL](https://www.cnil.fr)).
 
 ### Changes
