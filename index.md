@@ -14,7 +14,7 @@ collect 1,000 cities, upgrade them to Holo then Gold.*
 ## Assistance / Support
 
 Une question, un souci, une idée ? Écrivez-nous :
-[frenchcards.app@gmail.com](mailto:frenchcards.app@gmail.com)
+[frenchcards.app@icloud.com](mailto:frenchcards.app@icloud.com)
 
 *Questions, problems or ideas? Email us at the address above.*
 

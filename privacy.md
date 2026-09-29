@@ -113,7 +113,7 @@ une nouvelle date.
 
 ### Contact
 
-Clément Dudit — [frenchcards.app@gmail.com](mailto:frenchcards.app@gmail.com)
+Clément Dudit — [frenchcards.app@icloud.com](mailto:frenchcards.app@icloud.com)
 
 ---
 
@@ -210,4 +210,4 @@ date.
 
 ### Contact
 
-Clément Dudit — [frenchcards.app@gmail.com](mailto:frenchcards.app@gmail.com)
+Clément Dudit — [frenchcards.app@icloud.com](mailto:frenchcards.app@icloud.com)
