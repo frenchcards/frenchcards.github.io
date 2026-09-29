@@ -1,0 +1,6 @@
+title: French Cards
+description: Un jeu de cartes à collectionner pour iPhone, où chaque carte est une ville de France.
+lang: fr
+theme: jekyll-theme-primer
+exclude:
+  - README.md
