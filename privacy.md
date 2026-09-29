@@ -73,8 +73,8 @@ pouvez les désactiver dans les Réglages du jeu ou d'iOS.
   « publicité vue », avec des valeurs fixes (type de pack, rareté, écran), plus
   le modèle d'iPhone, la version d'iOS, une localisation approximative (pays,
   région, ville) déduite de l'adresse IP et un identifiant aléatoire propre à
-  cette installation. Jamais votre ville de jeu, le nom des cartes,
-  l'identifiant publicitaire ni aucun identifiant de l'appareil.
+  cette installation. Jamais la ville de votre carte « MA VILLE », le nom des
+  cartes, l'identifiant publicitaire ni aucun identifiant de l'appareil.
 - Ces données ne servent qu'à améliorer le jeu : ni publicité, ni suivi,
   ni lien avec votre identité. En Europe et au Royaume-Uni, vous pouvez
   changer d'avis dans **Réglages › Choix de confidentialité**.
@@ -204,8 +204,9 @@ Settings or in iOS Settings.
   default. Events such as "pack opened", "card upgraded", "screen shown" or
   "ad watched", with fixed values (pack type, rarity, screen), plus the iPhone
   model, iOS version, an approximate location (country, region, city) derived
-  from the IP address and a random ID for this installation. Never your game
-  town, card names, the advertising identifier or any device identifier.
+  from the IP address and a random ID for this installation. Never the town on
+  your "MA VILLE" card, card names, the advertising identifier or any device
+  identifier.
 - This data is only used to improve the game: no advertising, no tracking,
   no link to your identity. In Europe and the UK, you can change your mind in
   **Settings › Privacy choices**.
