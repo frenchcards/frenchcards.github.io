@@ -2,6 +2,8 @@
 title: French Cards
 ---
 
+# French Cards
+
 Un jeu de cartes à collectionner pour iPhone : chaque carte est une ville de
 France. Ouvrez des packs, collectionnez 1 000 villes, passez-les en Holo puis
 en Or.

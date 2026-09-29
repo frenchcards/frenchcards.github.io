@@ -3,6 +3,8 @@ title: Politique de confidentialité / Privacy Policy
 permalink: /privacy/
 ---
 
+## Politique de confidentialité / Privacy Policy
+
 *Dernière mise à jour / Last updated: 29 septembre 2026 / September 29, 2026*
 
 [Français](#fr) · [English](#en)
