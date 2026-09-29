@@ -28,7 +28,9 @@ pourquoi, et comment garder la main dessus.
 - Les publicités ne s'affichent que lorsque vous choisissez d'en regarder une
   pour un pack région. Elles sont fournies par **Google AdMob**, avec votre
   consentement.
-- Des rapports de plantage anonymes nous aident à corriger les bugs ; des statistiques d'utilisation, seulement si vous les acceptez (**Firebase**, Google).
+- Des rapports de plantage anonymes nous aident à corriger les bugs ; des
+  statistiques d'utilisation, seulement si vous les acceptez (**Firebase**,
+  Google).
 
 ### Données enregistrées par le jeu
 
@@ -40,7 +42,9 @@ pourquoi, et comment garder la main dessus.
   modifier.
 - **Vos réglages** (notifications, etc.) restent sur l'appareil.
 
-Le jeu n'envoie aucune donnée à un serveur qui nous appartienne. Il utilise Firebase (Google) pour les rapports de plantage et, avec votre accord, des statistiques d'utilisation (voir ci-dessous).
+Le jeu n'envoie aucune donnée à un serveur qui nous appartienne. Il utilise
+Firebase (Google) pour les rapports de plantage et, avec votre accord, des
+statistiques d'utilisation (voir ci-dessous).
 
 ### Localisation
 
@@ -65,13 +69,16 @@ pouvez les désactiver dans les Réglages du jeu ou d'iOS.
 - **Statistiques d'utilisation (Google Analytics pour Firebase)**, seulement
   si vous les acceptez dans le formulaire de consentement de Google (Europe et
   Royaume-Uni) : des événements comme « pack ouvert », « carte améliorée »,
-  « écran affiché » ou « publicité vue », avec des valeurs fixes (type de pack, rareté, écran),
-  plus le modèle d'iPhone, la version d'iOS, le pays et un identifiant
-  aléatoire propre à cette installation. Jamais votre ville, le nom des
-  cartes, l'identifiant publicitaire ni aucun identifiant de l'appareil.
+  « écran affiché » ou « publicité vue », avec des valeurs fixes (type de
+  pack, rareté, écran), plus le modèle d'iPhone, la version d'iOS, le pays et
+  un identifiant aléatoire propre à cette installation. Jamais votre ville, le
+  nom des cartes, l'identifiant publicitaire ni aucun identifiant de l'appareil.
 - Ces données ne servent qu'à améliorer le jeu : ni publicité, ni suivi,
   ni lien avec votre identité. Vous pouvez changer d'avis dans
   **Réglages › Choix de confidentialité**.
+
+Google traite ces données selon ses propres règles :
+[Confidentialité et sécurité dans Firebase](https://firebase.google.com/support/privacy).
 
 ### Publicités (Google AdMob)
 
@@ -86,7 +93,9 @@ l'appareil, interactions avec les publicités et données de diagnostic.
   formulaire de consentement de Google vous permet d'accepter ou de refuser les
   publicités personnalisées. Si vous refusez, vous recevez des publicités non
   personnalisées et obtenez quand même votre pack. Vous pouvez changer d'avis à
-  tout moment dans le jeu : **Réglages › Choix de confidentialité**.
+  tout moment dans le jeu : **Réglages › Choix de confidentialité**. Ce même
+  formulaire couvre aussi les statistiques d'utilisation (voir la section
+  Firebase ci-dessus).
 - **Suivi (App Tracking Transparency)** : iOS vous demande ensuite si le jeu
   peut accéder à l'identifiant publicitaire. Refuser ne change rien au jeu.
   Vous pouvez modifier ce choix dans Réglages iOS › Confidentialité et
@@ -119,8 +128,10 @@ Conformément au RGPD, vous pouvez accéder à vos données, les rectifier ou le
 supprimer. Comme votre collection est dans votre iCloud, vous la gérez
 directement : Réglages iOS › [votre nom] › iCloud › Gérer le stockage ›
 French Cards pour la supprimer. Pour les données publicitaires, utilisez
-Réglages › Choix de confidentialité dans le jeu, ou contactez Google.
-Vous pouvez aussi déposer une réclamation auprès de la
+Réglages › Choix de confidentialité dans le jeu, ou contactez Google ; vous
+pouvez y retirer à tout moment votre accord aux statistiques d'utilisation.
+Les rapports de plantage et les statistiques sont traités par Google
+(Firebase). Vous pouvez aussi déposer une réclamation auprès de la
 [CNIL](https://www.cnil.fr).
 
 ### Modifications
@@ -148,7 +159,8 @@ how you stay in control of it.
   stored or sent anywhere.
 - Ads only appear when you choose to watch one for a region pack. They're
   served by **Google AdMob**, with your consent.
-- Anonymous crash reports help us fix bugs; usage statistics only if you accept them (**Firebase**, Google).
+- Anonymous crash reports help us fix bugs; usage statistics only if you
+  accept them (**Firebase**, Google).
 
 ### Data the game stores
 
@@ -159,7 +171,8 @@ how you stay in control of it.
   access it; we can't read or change it.
 - **Your settings** (notifications, etc.) stay on the device.
 
-The game sends no data to any server of ours. It uses Firebase (Google) for crash reports and, with your consent, usage statistics (see below).
+The game sends no data to any server of ours. It uses Firebase (Google) for
+crash reports and, with your consent, usage statistics (see below).
 
 ### Location
 
@@ -183,13 +196,16 @@ Settings or in iOS Settings.
   collection.
 - **Usage statistics (Google Analytics for Firebase)**, only if you accept
   them in Google's consent form (Europe and UK): events such as "pack opened",
-  "card upgraded", "screen shown" or "ad watched", with fixed values (pack type, rarity,
-  screen), plus the iPhone model, iOS version, country and a random ID for
-  this installation. Never your town, card names, the advertising identifier
-  or any device identifier.
+  "card upgraded", "screen shown" or "ad watched", with fixed values (pack
+  type, rarity, screen), plus the iPhone model, iOS version, country and a
+  random ID for this installation. Never your town, card names, the
+  advertising identifier or any device identifier.
 - This data is only used to improve the game: no advertising, no tracking,
   no link to your identity. You can change your mind in
   **Settings › Privacy choices**.
+
+Google handles this data under its own policy:
+[Privacy and Security in Firebase](https://firebase.google.com/support/privacy).
 
 ### Ads (Google AdMob)
 
@@ -202,7 +218,8 @@ interactions and diagnostic data.
 - **Consent (Europe and UK)**: before the first ad, Google's consent form lets
   you accept or refuse personalized ads. If you refuse, you get
   non-personalized ads and still get your pack. You can change your choice at
-  any time in the game: **Settings › Privacy choices**.
+  any time in the game: **Settings › Privacy choices**. The same form also
+  covers the usage statistics (see the Firebase section above).
 - **Tracking (App Tracking Transparency)**: iOS then asks whether the game may
   access the advertising identifier. Declining doesn't change anything in the
   game. You can change this in iOS Settings › Privacy & Security › Tracking.
@@ -232,7 +249,9 @@ collect personal data from children.
 Under the GDPR you can access, correct or delete your data. Since your
 collection lives in your iCloud, you manage it directly: iOS Settings ›
 [your name] › iCloud › Manage Storage › French Cards to delete it. For ad data,
-use Settings › Privacy choices in the game, or contact Google. You can also
+use Settings › Privacy choices in the game, or contact Google; you can
+withdraw your consent to usage statistics there at any time. Crash reports and
+statistics are handled by Google (Firebase). You can also
 lodge a complaint with your data protection authority (in France, the
 [CNIL](https://www.cnil.fr)).
 
