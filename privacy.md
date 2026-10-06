@@ -5,7 +5,7 @@ permalink: /privacy/
 
 ## Politique de confidentialité / Privacy Policy
 
-*Dernière mise à jour / Last updated: 29 septembre 2026 / September 29, 2026*
+*Dernière mise à jour / Last updated: 6 octobre 2026 / October 6, 2026*
 
 [Français](#fr) · [English](#en)
 
@@ -13,9 +13,10 @@ permalink: /privacy/
 
 ## Français {#fr}
 
-French Cards est un jeu de cartes à collectionner pour iPhone, édité par
-Clément Dudit (« nous »). Cette page explique quelles données le jeu utilise,
-pourquoi, et comment garder la main dessus.
+French Cards est un jeu de cartes à collectionner pour iPhone et Android,
+édité par Clément Dudit (« nous »). Cette page explique quelles données le jeu
+utilise, pourquoi, et comment garder la main dessus. Elle décrit l'iPhone ; ce
+qui change sur Android est résumé dans la section [Sur Android](#sur-android).
 
 ### En bref
 
@@ -97,10 +98,10 @@ l'appareil, interactions avec les publicités et données de diagnostic.
   publicités personnalisées. Si vous refusez, vous recevez des publicités non
   personnalisées et obtenez quand même votre pack. Vous pouvez changer d'avis à
   tout moment dans le jeu : **Réglages › Confidentialité des publicités**.
-- **Suivi (App Tracking Transparency)** : iOS vous demande ensuite si le jeu
-  peut accéder à l'identifiant publicitaire. Refuser ne change rien au jeu.
-  Vous pouvez modifier ce choix dans Réglages iOS › Confidentialité et
-  sécurité › Suivi.
+- **Suivi (App Tracking Transparency)** : à la fin des écrans de bienvenue, iOS
+  vous demande si le jeu peut accéder à l'identifiant publicitaire. Refuser ne
+  change rien au jeu. Vous pouvez modifier ce choix dans Réglages iOS ›
+  Confidentialité et sécurité › Suivi.
 
 Google traite ces données selon ses propres règles :
 [Règles de confidentialité de Google](https://policies.google.com/privacy) et
@@ -135,6 +136,36 @@ de TelemetryDeck sont anonymes et ne peuvent pas être rattachées à vous. Pour
 toute question, écrivez-nous à l'adresse ci-dessous. Vous pouvez aussi déposer
 une réclamation auprès de la [CNIL](https://www.cnil.fr).
 
+### Sur Android
+
+Le jeu est le même et utilise les mêmes services (Crashlytics, TelemetryDeck,
+AdMob). Ce qui change :
+
+- **Votre collection** est stockée sur le téléphone. Si la sauvegarde Google
+  de votre téléphone est activée, Android l'inclut dans cette sauvegarde
+  chiffrée et la copie lors du transfert vers un nouveau téléphone. Elle est
+  gérée par votre compte Google ; nous n'y avons pas accès. Il n'y a pas de
+  synchronisation en continu entre plusieurs appareils.
+- **Localisation** : Android vous demande l'autorisation d'accéder à votre
+  position approximative. Elle sert de la même façon, une seule fois.
+- **Notifications** : les rappels sont programmés par le téléphone lui-même ;
+  Android vous demande l'autorisation la première fois.
+- **Publicités** : le kit de Google AdMob peut utiliser l'identifiant
+  publicitaire Android, que vous pouvez réinitialiser ou supprimer dans les
+  paramètres de confidentialité d'Android (Annonces). Le formulaire de
+  consentement de Google est le même ; il n'y a pas de demande de suivi
+  (App Tracking Transparency est propre à l'iPhone).
+- **Achats intégrés** : « Retirer les publicités » passe par Google Play. Nous
+  ne voyons jamais vos informations de paiement.
+- **Avis** : le jeu peut afficher le formulaire d'avis de Google Play, que
+  Google gère.
+- **Rapports et statistiques** indiquent le modèle du téléphone et la version
+  d'Android au lieu de ceux de l'iPhone.
+- **Supprimer vos données** : désinstallez le jeu ou effacez ses données
+  (Paramètres Android › Applications › French Cards › Stockage) ; les
+  sauvegardes se gèrent dans votre compte Google (Google Drive ›
+  Sauvegardes).
+
 ### Modifications
 
 Si cette politique change, la nouvelle version sera publiée sur cette page avec
@@ -148,9 +179,10 @@ Clément Dudit — [frenchcards.app@icloud.com](mailto:frenchcards.app@icloud.co
 
 ## English {#en}
 
-French Cards is a collectible card game for iPhone, published by
+French Cards is a collectible card game for iPhone and Android, published by
 Clément Dudit ("we"). This page explains what data the game uses, why, and
-how you stay in control of it.
+how you stay in control of it. It describes the iPhone; what differs on
+Android is summed up in [On Android](#on-android).
 
 ### In short
 
@@ -224,9 +256,10 @@ interactions and diagnostic data.
   you accept or refuse personalized ads. If you refuse, you get
   non-personalized ads and still get your pack. You can change your choice at
   any time in the game: **Settings › Ad privacy choices**.
-- **Tracking (App Tracking Transparency)**: iOS then asks whether the game may
-  access the advertising identifier. Declining doesn't change anything in the
-  game. You can change this in iOS Settings › Privacy & Security › Tracking.
+- **Tracking (App Tracking Transparency)**: when you finish the welcome
+  screens, iOS asks whether the game may access the advertising identifier.
+  Declining doesn't change anything in the game. You can change this in iOS
+  Settings › Privacy & Security › Tracking.
 
 Google handles this data under its own policies:
 [Google Privacy Policy](https://policies.google.com/privacy) and
@@ -258,6 +291,33 @@ are handled by Google (Firebase); TelemetryDeck's statistics are anonymous and
 can't be tied to you. For any question, write to the address below. You can
 also lodge a complaint with your data protection authority (in France, the
 [CNIL](https://www.cnil.fr)).
+
+### On Android
+
+The game is the same and uses the same services (Crashlytics, TelemetryDeck,
+AdMob). What differs:
+
+- **Your collection** is stored on the phone. If your phone's Google backup
+  is on, Android includes it in that encrypted backup and copies it when you
+  transfer to a new phone. It's managed by your Google Account; we can't
+  access it. There's no continuous sync between several devices.
+- **Location**: Android asks for permission to use your approximate
+  location. It's used the same way, once.
+- **Notifications**: reminders are scheduled by the phone itself; Android
+  asks for permission the first time.
+- **Ads**: the Google AdMob SDK may use the Android advertising ID, which you
+  can reset or delete in Android's privacy settings (Ads). Google's consent
+  form is the same; there's no tracking prompt (App Tracking Transparency is
+  iPhone only).
+- **In-app purchase**: "Remove ads" goes through Google Play. We never see
+  your payment details.
+- **Reviews**: the game may show Google Play's review form, which Google
+  handles.
+- **Reports and statistics** include the phone model and Android version
+  instead of the iPhone's.
+- **Deleting your data**: uninstall the game or clear its data (Android
+  Settings › Apps › French Cards › Storage); backups are managed in your
+  Google Account (Google Drive › Backups).
 
 ### Changes
 
