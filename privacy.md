@@ -5,7 +5,7 @@ permalink: /privacy/
 
 ## Politique de confidentialité / Privacy Policy
 
-*Dernière mise à jour / Last updated: 6 octobre 2026 / October 6, 2026*
+*Dernière mise à jour / Last updated: 9 octobre 2026 / October 9, 2026*
 
 [Français](#fr) · [English](#en)
 
@@ -46,6 +46,11 @@ qui change sur Android est résumé dans la section [Sur Android](#sur-android).
 Le jeu n'envoie aucune donnée à un serveur qui nous appartienne. Il utilise
 Firebase Crashlytics (Google) pour les rapports de plantage et TelemetryDeck
 pour des statistiques d'utilisation anonymes (voir ci-dessous).
+
+Sur iPhone, il demande l'heure à notre site (frenchcards.github.io, hébergé
+par GitHub Pages) au lancement : la requête ne contient rien sur vous ni sur
+votre collection, mais comme pour toute visite d'un site, GitHub voit votre
+adresse IP.
 
 ### Localisation
 
@@ -208,6 +213,10 @@ Android is summed up in [On Android](#on-android).
 The game sends no data to any server of ours. It uses Firebase Crashlytics
 (Google) for crash reports and TelemetryDeck for anonymous usage statistics
 (see below).
+
+On iPhone, it asks our website (frenchcards.github.io, hosted by GitHub
+Pages) for the time at launch: the request carries nothing about you or your
+collection, but like any website visit, GitHub sees your IP address.
 
 ### Location
 
